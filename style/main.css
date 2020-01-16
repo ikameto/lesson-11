@@ -26,7 +26,7 @@
   padding: 10px;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
   .header {
     flex-direction: row;
   }
@@ -40,7 +40,11 @@
   height: 50px;
 }
 
-@media screen and (min-width: 780px) {
+.menu-nav {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
   .menu-nav {
     display: flex;
     flex-direction: row;
@@ -56,7 +60,7 @@
   margin-bottom: 8px;
   font-size: 24px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   .menu__item {
     margin: 0 40px 0 0;
   }
@@ -119,7 +123,7 @@
   margin: 40px 0 80px;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
   .section {
     justify-content: space-between;
   }
@@ -133,7 +137,7 @@
   margin: 50px 25px;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
   .card {
     flex: 0 1 40%;
     margin: 50px 0;
@@ -144,7 +148,7 @@
   width: 90%;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
   .card__photo {
     width: 100%;
   }
@@ -167,7 +171,7 @@
   font-size: 16px;
   color: gray;
   font-weight: 500;
-  text-align: start;
+  text-align: justify;
 }
 
 /* ------------------------------------
@@ -222,7 +226,7 @@
   margin: 50px 0;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
   .box {
     justify-content: space-between;
   }
