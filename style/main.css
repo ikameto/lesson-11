@@ -1,0 +1,244 @@
+@import url(../style/frequent.css);
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin: 0 auto;
+    padding: 50px;
+  }
+}
+
+/* ------------------------------------
+ * Header
+ * --------------------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 780px) {
+  .header {
+    flex-direction: row;
+  }
+}
+
+.header__column {
+  margin-bottom: 40px;
+}
+
+.header__logo {
+  height: 50px;
+}
+
+@media screen and (min-width: 780px) {
+  .menu-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .menu-nav :last-child {
+    margin: 0;
+  }
+}
+
+.menu__item {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+@media screen and (min-width: 800px) {
+  .menu__item {
+    margin: 0 40px 0 0;
+  }
+}
+
+.menu__item-a {
+  color: grey;
+}
+
+/* ------------------------------------
+ * banner
+ * --------------------------------- */
+.banner {
+  width: 100%;
+  max-height: 1000px;
+  margin: 20px 0 60px;
+  text-align: center;
+}
+
+.banner__photo {
+  width: 100%;
+}
+
+/* ------------------------------------
+ * wrapper
+ * --------------------------------- */
+.wrapper {
+  padding: 20px;
+}
+
+.text-diary__title {
+  margin-top: 20px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+}
+
+.text-diary__text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  margin-top: 25px;
+  text-align: justify;
+}
+
+.text-diary__endit {
+  margin-top: 40px;
+}
+
+/* ------------------------------------
+ * section
+ * --------------------------------- */
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0 80px;
+}
+
+@media screen and (min-width: 780px) {
+  .section {
+    justify-content: space-between;
+  }
+}
+
+/* ------------------------------------
+ * card
+ * --------------------------------- */
+.card {
+  width: 300px;
+  margin: 50px 25px;
+}
+
+@media screen and (min-width: 780px) {
+  .card {
+    flex: 0 1 40%;
+    margin: 50px 0;
+  }
+}
+
+.card__photo {
+  width: 90%;
+}
+
+@media screen and (min-width: 780px) {
+  .card__photo {
+    width: 100%;
+  }
+}
+
+.card__description {
+  margin: 25px 0 10px;
+}
+
+.card__title {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  text-align: start;
+}
+
+/* ------------------------------------
+ * registration
+ * --------------------------------- */
+.registration {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.registration__form {
+  position: relative;
+  width: 300px;
+}
+
+.registration__title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  color: lightslategrey;
+}
+
+.registration__input {
+  border: none;
+  border-bottom: 3px black solid;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.registration__input:focus {
+  outline: 3px solid gray;
+}
+
+.registration__icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translate(0, -50%);
+  height: 15px;
+}
+
+/* ------------------------------------
+ * box
+ * --------------------------------- */
+.box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 780px) {
+  .box {
+    justify-content: space-between;
+  }
+}
+
+/* ------------------------------------
+ * more
+ * --------------------------------- */
+.more {
+  display: flex;
+  justify-content: center;
+}
+
+.more__title {
+  padding: 20px;
+  border: 1px gray solid;
+  border-radius: 30px;
+  color: gray;
+}
